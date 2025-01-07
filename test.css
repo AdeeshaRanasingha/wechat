@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    height: 80vh; /* Adjust to control the height */
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background: #f8fafc;
+    padding: 1rem;
+    overflow-y: auto;
+  }
+  
+  .profile {
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    cursor: pointer;
+  }
+  
+  .contact.active {
+    background: #e0f2fe;
+  }
+  
+  .contact img {
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .contact-info h4 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.9rem;
+  }
+  
+  .chat-main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #fff;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background: #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .message {
+    margin-left: 50px;
+    margin-top: -35px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .message.sent {
+    justify-content: flex-end;
+  }
+  
+  .message p {
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .message.received p {
+    
+    background: #e5e7eb;
+    color: #111827;
+  }
+  
+  .message.sent p {
+    background: #2563eb;
+    color: #fff;
+  }
+  
+  .chat-footer {
+    position: relative;
+    
+    padding: 1rem;
+    border-top: 1px solid #e5e7eb;
+    display: flex;
+  }
+  
+  .chat-footer form input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    width: 600px;
+  }
+  
+  .send-btn {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  
+  
+  
+  <?php echo 'dpImages/'.$_SESSION['dp'] ?>
+
+  XqLCnYJrEJIcYLs password
+
+  ErrorDocument 403 https://errors.infinityfree.net/errors/403/

@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    position: relative; /* For positioning the back arrow */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+  }
+
+  /* Back Arrow */
+  .back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .back-arrow:hover {
+    color: #1d4ed8;
+  }
+
+  .back-arrow span {
+    margin-left: 8px;
+    font-size: 16px;
+  }
+
+  /* Profile Section */
+  .profile-section {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .profile-section h3 {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  .profile-section p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+
+  .profile-section button {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .profile-section button.payment {
+    background: #1d4ed8;
+    color: white;
+  }
+
+  .profile-section button.delete {
+    background: #dc2626;
+    color: white;
+  }
+
+  /* Form Section */
+  form {
+    margin-top: 20px;
+  }
+
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  form button {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
